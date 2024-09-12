@@ -242,3 +242,8 @@ h1 span:nth-child(3){
     display: grid;
     grid-template-columns: repeat(7,1fr);
 }
+
+#game img:nth-last-of-type(1){
+  grid-row: 8;
+  border-color: #030;
+}
