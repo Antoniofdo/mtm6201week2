@@ -152,7 +152,7 @@ CLASS STYLE
 
 nav UL{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     padding: 20px 0px;
     justify-content: center;
 }
