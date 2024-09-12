@@ -186,5 +186,7 @@ nav ul li:nth-child(2){
 h1{
     /*by default grid sets up a single colum grid with necessary rows based on the elemnts inside the containeer*/
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /*allows us to define columns in our grid*/
+    grid-template-columns: 1fr 1fr 2fr;
+
 }
