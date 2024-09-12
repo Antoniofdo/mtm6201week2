@@ -177,3 +177,8 @@ nav ul li a:hover{
     background-color: blue;
 
 }
+
+nav ul li:nth-child(2){
+    order: 1;
+    /* changes the order of the aligment*/
+}
