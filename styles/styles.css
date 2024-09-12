@@ -236,5 +236,9 @@ h1 span:nth-child(3){
     justify-self: right;
     align-self: center;
 }
-
+}
+/* the game needs a 7 column grid to work*/
+#game{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
 }
