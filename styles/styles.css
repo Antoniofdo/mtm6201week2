@@ -154,7 +154,7 @@ nav UL{
     display: flex;
     flex-direction: row;
     padding: 20px 0px;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 50px;
     align-items: center;
 }
