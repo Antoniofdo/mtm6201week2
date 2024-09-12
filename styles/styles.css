@@ -210,6 +210,9 @@ h1 span:nth-child(3){
 
 #game{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr  1fr;
     grid-template-rows: 1fr 3fr 2fr;
+    /*position horizintally in each grid space*/
+    justify-items: center;
+    align-items: end;
 }
