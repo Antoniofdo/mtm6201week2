@@ -201,8 +201,8 @@ h1 img{
 }
 
 h1 span:nth-child(2){
-    grid-area: title1;
+    grid-area:title1;
 }
 h1 span:nth-child(3){
-    grid-area: title2;
+    grid-area:title2;
 }
