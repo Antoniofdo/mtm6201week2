@@ -154,7 +154,7 @@ nav UL{
     display: flex;
     flex-direction: column-reverse;
     padding: 20px 0px;
-    justify-content: baseline;
+    justify-content: center;
 }
 
 nav ul li{
