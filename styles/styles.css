@@ -161,4 +161,7 @@ nav UL{
 
 nav ul li{
     background-color: aqua;
+    flex-grow: 1;
+    /* flex basis set to 0 will tell the elements to ignore the content inside them*/
+    flex-basis: 0;
 }
