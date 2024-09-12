@@ -207,7 +207,9 @@ h1 span:nth-child(3){
     grid-area:title2;
 }
 
-
+/*use media query to hide our testing block of code will only appear if the code 1px or or less wide*/
+@media screen and (max-width:1px){
+    
 #game{
     display: grid;
     grid-template-columns: 1fr 2fr  1fr;
@@ -233,4 +235,6 @@ h1 span:nth-child(3){
 
     justify-self: right;
     align-self: center;
+}
+
 }
