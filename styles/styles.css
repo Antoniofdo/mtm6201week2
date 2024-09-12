@@ -217,3 +217,20 @@ h1 span:nth-child(3){
     /*position vertically in each grid space*/
     align-items: end;
 }
+/*looks for the thirdimg no matter how many other things are in the parent*/
+#game img:nth-of-type(3){
+    background: #ffff;
+    grid-row: 3;
+}
+
+#game img:nth-of-type(2){
+    background: green;
+    /* Column start and end can be used to tell an object to take up a specific number of columns like wise grid-row-start*/
+    grid-column-start:2; 
+    grid-column-end:span 2;
+
+    /*we can control the aignment of an individual grid item using:justify-self:hotizont; and align-self:vertically*/
+
+    justify-self: right;
+    align-self: center;
+}
