@@ -182,3 +182,9 @@ nav ul li:nth-child(2){
     order: 1;
     /* changes the order of the aligment*/
 }
+
+h1{
+    /*by default grid sets up a single colum grid with necessary rows based on the elemnts inside the containeer*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
